@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `accounts` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+  	`username` varchar(50) NOT NULL,
+  	`password` varchar(255) NOT NULL,
+  	`logintime` varchar(100) ,
+  	`time_used` varchar(100) ,
+  	`flow` varchar(100) ,
+  	`ip` varchar(100) , 
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
